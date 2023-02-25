@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @justynroberts
-- 👀 I’m interested in Sales Engineering,AIOPS,APM,Mobile,Devops
+- 👀 I’m interested in Sales Engineering,AIOPS,APM,Mobile,Devops,IOT,Embedded & Automation
 - 🌱 I’m currently learning Python,Powershell,Pig Latin and the Kings English
 - 💞️ I’m looking to collaborate on Rundeck,PagerDuty,Music Projects,Life
 - 📫 How to reach me 07815592797. No Spam/Scam/Recruiters please.. 
