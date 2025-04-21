@@ -1,4 +1,4 @@
-# 👨‍💻 Justyn Roberts | Tech Enthusiast & Problem Solver
+# 👨‍💻 \\Justyn Roberts 
 
 <div align="center">
   
@@ -13,7 +13,7 @@
 ```javascript
 const justyn = {
   location: "UK",
-  role: "Sales Engineering Professional",
+  role: "Solution Consulting",
   passions: ["AIOPS", "APM", "Mobile", "DevOps", "IoT", "Embedded Systems", "Automation"],
   currentlyLearning: ["Python", "PowerShell", "Pig Latin", "The King's English"],
   favQuote: "The only way to do great work is to love what you do."
@@ -35,7 +35,7 @@ const justyn = {
 
 ## 💡 Current Projects
 
-- Enhancing monitoring systems with AIOPS integration
+- Automation (Rundeck/N8N/Langflow)
 - Building custom automation workflows with Rundeck
 - Optimizing PagerDuty alert configurations
 - Various music production side projects
