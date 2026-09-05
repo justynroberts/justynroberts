@@ -1,98 +1,39 @@
-# Justyn Roberts
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Principal_Solutions_Consultant-PagerDuty_EMEA-06D6A0?style=flat-square&labelColor=0D1117" alt="Role" />
-  <img src="https://img.shields.io/badge/Building_under-Fintonlabs-06D6A0?style=flat-square&labelColor=0D1117" alt="Fintonlabs" />
-  <img src="https://img.shields.io/badge/Based_in-United_Kingdom-06D6A0?style=flat-square&labelColor=0D1117" alt="Location" />
-</p>
-
-<p align="center"><i>Automation, observability, and the awkward gap between the two.</i></p>
-
----
-
-## About
-
-Twenty five years of EMEA enterprise technology, most of it spent on the pointy end of automation and incident response. I've joined a few companies as the first European technical hire and stayed through the acquisitions on the other side, which is a polite way of saying I've seen a lot of tooling migrations.
-
-These days I work on operational automation, observability, and agentic AI systems: mostly the question of how you let an LLM touch production without it becoming an incident of its own. Everything else gets built at home under the Fintonlabs banner, usually with more ESP32s involved than strictly necessary.
-
-I also write for The New Stack on automation and engineering velocity, and run the Rundeck community meetups.
-
-## Selected Projects
-
-| Project | What it is |
-| --- | --- |
-| **Rundeckbot** | Kubernetes self healing with a three tier remediation model (AUTO / GATED / TRIAGE), wired to Rundeck, Slack for human in the loop approval, and PagerDuty |
-| **MCP Servers** | Model Context Protocol servers for PagerDuty, Rundeck, Datadog and New Relic, including Streamable HTTP transport |
-| **Portcullis** | Risk gating architecture for agentic systems. LLM as judge with asymmetric trust, so approving an action is harder than blocking one |
-| **Tideline** | Workflow engine written in Go, HCL for definitions and BoltDB for state |
-| **DriftWatch** | CMDB drift intelligence. Finding out what actually changed, rather than what the CMDB thinks changed |
-| **PeekLM** | OpenTelemetry proxy for Ollama inference, so local model calls show up in the same traces as everything else |
-| **Loopmind** | Claude talking to Ableton Live over MCP |
-| **Aether** | Webcam hand tracking MIDI controller |
-| **Threadbare** | LLM adventure engine running on an ESP32, with a folk horror Lincolnshire content pack called *The Harrowing* |
-
-## Stack
-
-**Automation and orchestration**
+## Justyn Roberts
 
 <p>
-  <img src="https://img.shields.io/badge/Rundeck-06D6A0?style=flat-square&labelColor=0D1117&color=161B22" alt="Rundeck" />
-  <img src="https://img.shields.io/badge/PagerDuty-06D6A0?style=flat-square&logo=pagerduty&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="PagerDuty" />
-  <img src="https://img.shields.io/badge/Ansible-06D6A0?style=flat-square&logo=ansible&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Ansible" />
-  <img src="https://img.shields.io/badge/Kubernetes-06D6A0?style=flat-square&logo=kubernetes&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/n8n-06D6A0?style=flat-square&logo=n8n&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="n8n" />
+  <img src="https://img.shields.io/badge/PagerDuty-Principal_Solutions_Consultant-0b0d11?style=flat-square&logo=pagerduty&logoColor=06AC38" alt="PagerDuty" />
+  <img src="https://img.shields.io/badge/FintonLabs-self--hosted-0b0d11?style=flat-square" alt="FintonLabs" />
+  <img src="https://img.shields.io/badge/Nottingham-UK-0b0d11?style=flat-square" alt="Nottingham" />
 </p>
 
-**Observability**
+Automation and observability, mostly. Twenty five years of EMEA enterprise technology, a fair amount of it as the first European technical hire somewhere, which tends to mean you learn the product and the plumbing at the same time.
+
+Most of what's here started as an itch. Something I wanted to exist, built badly, then rebuilt until I actually used it every day.
+
+### Apps
+
+**[DemoDog](https://github.com/justynroberts/demodog)** is a screen recorder for macOS that edits itself. Record, and it comes back with the zooms already placed from what you actually did, the cursor redrawn and smoothed rather than baked in, and your camera in a bubble that gets out of the way. Captions transcribe locally, nothing uploaded.
+
+**[Termite](https://github.com/justynroberts/termite)** is a terminal client that doesn't assume you only have one server. SSH in tabs and split panes, SFTP, port forwarding, and a host vault with agent, key and bastion support. Run a step across forty machines and watch the exit codes come back. Electron and xterm.js, macOS and Windows, MIT, no account and no telemetry.
+
+**[Pastel](https://github.com/justynroberts/pastel)** is the missing Windows clipboard manager. Native WPF, a single 90 KB exe with no runtime to install, and it builds with the C# compiler already sitting inside Windows. Ctrl+Alt+V anywhere.
 
 <p>
-  <img src="https://img.shields.io/badge/OpenTelemetry-06D6A0?style=flat-square&logo=opentelemetry&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="OpenTelemetry" />
-  <img src="https://img.shields.io/badge/Datadog-06D6A0?style=flat-square&logo=datadog&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Datadog" />
-  <img src="https://img.shields.io/badge/New_Relic-06D6A0?style=flat-square&logo=newrelic&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="New Relic" />
-  <img src="https://img.shields.io/badge/Grafana-06D6A0?style=flat-square&logo=grafana&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Electron-0b0d11?style=flat-square&logo=electron&logoColor=9FEAF9" alt="Electron" />
+  <img src="https://img.shields.io/badge/Swift-0b0d11?style=flat-square&logo=swift&logoColor=F05138" alt="Swift" />
+  <img src="https://img.shields.io/badge/C%23_/_WPF-0b0d11?style=flat-square&logo=dotnet&logoColor=512BD4" alt="C# WPF" />
+  <img src="https://img.shields.io/badge/Go-0b0d11?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-0b0d11?style=flat-square&logo=python&logoColor=FFD343" alt="Python" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-0b0d11?style=flat-square&logo=opentelemetry&logoColor=F5A800" alt="OpenTelemetry" />
+  <img src="https://img.shields.io/badge/MCP-0b0d11?style=flat-square" alt="MCP" />
 </p>
 
-**AI and agents**
 
-<p>
-  <img src="https://img.shields.io/badge/MCP-06D6A0?style=flat-square&labelColor=0D1117&color=161B22" alt="MCP" />
-  <img src="https://img.shields.io/badge/Ollama-06D6A0?style=flat-square&logo=ollama&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Ollama" />
-  <img src="https://img.shields.io/badge/Langflow-06D6A0?style=flat-square&labelColor=0D1117&color=161B22" alt="Langflow" />
-</p>
 
-**Languages and hardware**
+### Audio
 
-<p>
-  <img src="https://img.shields.io/badge/Python-06D6A0?style=flat-square&logo=python&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-06D6A0?style=flat-square&logo=go&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="Go" />
-  <img src="https://img.shields.io/badge/TypeScript-06D6A0?style=flat-square&logo=typescript&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PowerShell-06D6A0?style=flat-square&logo=powershell&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/ESP32-06D6A0?style=flat-square&logo=espressif&logoColor=06D6A0&labelColor=0D1117&color=161B22" alt="ESP32" />
-  <img src="https://img.shields.io/badge/LoRa_/_Meshtastic-06D6A0?style=flat-square&labelColor=0D1117&color=161B22" alt="LoRa" />
-</p>
+Instruments that run in a browser tab, an 808 and a 909 either sampled or modelled from the circuits, a MIDI controller driven by webcam hand tracking. All of it live at [portfolio.apps.fintonlabs.com](https://portfolio.apps.fintonlabs.com), no sign-up wall.
 
-## Open to Collaborate On
+Happy to talk Rundeck, PagerDuty automation, MCP servers, or agentic systems where someone has thought about the guardrails. Less happy to talk to recruiters.
 
-Rundeck implementations and anything involving self healing infrastructure. PagerDuty automation, particularly the messy end of event orchestration. MCP servers for operational tooling. Agentic systems where somebody has actually thought about the guardrails. And music tech, because it turns out MIDI and event pipelines have more in common than you'd expect.
-
-## Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=justynroberts&show_icons=true&hide_border=true&theme=github_dark&title_color=06D6A0&icon_color=06D6A0&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=justynroberts&layout=compact&hide_border=true&theme=github_dark&title_color=06D6A0&bg_color=0D1117" alt="Top Languages" />
-</p>
-
-## Elsewhere
-
-<p align="center">
-  <a href="mailto:justynroberts@gmail.com"><img src="https://img.shields.io/badge/Email-06D6A0?style=for-the-badge&logo=gmail&logoColor=0D1117" alt="Email" /></a>
-  <a href="https://thenewstack.io/author/justynroberts/"><img src="https://img.shields.io/badge/The_New_Stack-06D6A0?style=for-the-badge&logoColor=0D1117" alt="The New Stack" /></a>
-  <a href="https://www.linkedin.com/in/justynroberts/"><img src="https://img.shields.io/badge/LinkedIn-06D6A0?style=for-the-badge&logo=linkedin&logoColor=0D1117" alt="LinkedIn" /></a>
-</p>
-
-<p align="center"><sub>Genuine collaboration welcome. Cold recruiter outreach less so.</sub></p>
-
----
-
-<p align="center"><sub>The collective noun for a group of unicorns is a "blessing". Make of that what you will.</sub></p>
+[justyn@fintonlabs.com](mailto:justyn@fintonlabs.com) · [fintonlabs.com](https://fintonlabs.com)
