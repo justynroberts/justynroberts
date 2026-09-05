@@ -6,9 +6,10 @@
   <img src="https://img.shields.io/badge/Nottingham-UK-0b0d11?style=flat-square" alt="Nottingham" />
 </p>
 
-Automation and observability, mostly. Twenty five years of EMEA enterprise technology, a fair amount of it as the first European technical hire somewhere, which tends to mean you learn the product and the plumbing at the same time.
+Automation and observability, mostly. Twenty five years of EMEA enterprise technology, a fair amount of it as the first European technical hire at startups, which tends to mean you learn the product and the plumbing at the same time.
 
-Most of what's here started as an itch. Something I wanted to exist, built badly, then rebuilt until I actually used it every day.
+Most of the apps here started as an itch. 
+Something I wanted to exist, built badly, then rebuilt until I actually used it every day.
 
 ### Apps
 
